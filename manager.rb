@@ -1,17 +1,13 @@
 require "./employees.rb"
+require "./email_report_module.rb"
 
 class Manager < Employee
+  include EmailReportable
   attr_accessor :employees
 
   def initialize(input_options)
     super
     @employees = input_options[:employees]
-  end
-
-  def send_report
-    puts "sending email report"
-    # use some email sending library
-    puts "email sent!"
   end
 
   def give_all_raises
