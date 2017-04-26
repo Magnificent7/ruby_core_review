@@ -1,5 +1,4 @@
 require_relative 'employees.rb'
-
 class Manager < Employee
   def send_report
     puts "sending email report"

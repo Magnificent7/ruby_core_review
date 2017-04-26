@@ -3,7 +3,7 @@
 # employee1 = ["Marge", "Carter", 80000, true]
 # employee2 = ["Dan", "Campos", 70000, true]
 
-# puts employee1[0] + " " + employee1[1] + " makes " + employee1[2].to_s + " a year."
+# puts employee1[0] + " " + employee1[1] + " makes " + employee1[2].to_s + " a y`ear."
 # puts "#{employee1[0]} #{employee1[1]} makes #{employee1[2]} a year."
 
 #represent an employee as a hash
@@ -43,8 +43,6 @@ employee1 = Employee.new({first_name: "Marge", last_name: "Carter", salary: 8000
 employee1.print_info
 puts employee1.give_annual_raise
 puts employee1.active = false
-
-
 
 
 
